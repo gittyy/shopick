@@ -1,0 +1,128 @@
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+#shopick
+{
+	margin-left:45%;
+	color: white;
+}
+#search
+{
+	margin-left:35%;
+	margin-top:13%;
+	height:20px;
+	width:400px;
+	padding:15px;
+}
+#img
+{
+	width : 50px;
+	height :50px;
+}
+#submit_button
+{
+	margin-left:47%;
+	height:30px;
+	width:100px;
+	background-color:lime;
+}
+.dropdown input { border:none: background:#fff; display:block; width: 200%; box-sizing: border-box }
+.dropdown img {margin-left:500px;}	
+.dropbtn {
+    background-color:ghost-white;
+    color: gray;
+    padding: 16px;
+	margin-left:35%;
+	margin-top:13%;
+	height:30px;
+	width:400px;
+	padding:15px;
+    
+}
+
+html,body {
+        padding:0;
+        margin:0;
+        height:100%;
+        min-height:100%;
+      }
+	  
+#div3
+{
+	margin-left:40%;
+}
+#div4
+{
+	margin-left:80%;
+}
+.link
+{
+	margin-left:50%;
+	position:center;
+	font-size:25px;
+}
+.dropbtn:hover, .dropbtn:focus {
+    background-color: ghost-white;
+}
+
+.dropdown {
+    margin-left:25%;
+	margin-top:10%;
+	position:relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	margin-left: 150px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.dropdown a:hover {background-color:ghost-white}
+
+.show {display:block;}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#av
+{
+	width:50px;
+	height:50px;
+	margin-left:95%;
+	margin-top:-50px;
+}

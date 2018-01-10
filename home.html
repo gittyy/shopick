@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <title>Shopick</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body background="images/b2.jpg">
+
+<div class="topnav">
+
+  <h2 id = "shopick">Shopick</h2>
+  <img src="images/av1.png" alt="Avatar" class="avatar" id="av">
+</div><br><br>
+
+ 
+
+<div class="dropdown">
+<input type = "text" placeholder = "Search Location.." onclick="myFunction()" class="dropbtn" style="margin-left:30%; width:500px; height:20px;" />
+  <div id="myDropdown" class="dropdown-content">
+    <a href="mall_delhi.html">Delhi</a>
+    <a href="#mall_mumbai">Mumbai</a>
+    <a href="#mall_banglore">Banglore</a>
+  </div>
+  
+
+</div>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+</body>
+</html>
